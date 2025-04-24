@@ -1,0 +1,6 @@
+{
+    "name": "elyes/job-02",
+    "require-dev": {
+        "phpunit/phpunit": "^12.1"
+    }
+}
