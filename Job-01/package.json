@@ -1,0 +1,15 @@
+{
+  "name": "job-01",
+  "version": "1.0.0",
+  "description": "Projet d’initiation aux tests unitaires avec Jest",
+  "main": "math.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Elyes Messaadia",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
