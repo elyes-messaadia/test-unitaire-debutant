@@ -1,11 +1,6 @@
 
 # 🧪 Job-01 – Premiers Tests Unitaires avec Jest
 
-Bienvenue dans ce projet d’initiation aux **tests unitaires avec Jest** en JavaScript.  
-Tu vas apprendre à écrire une fonction, la tester avec Jest, corriger les erreurs, et documenter tout ça comme un pro.
-
----
-
 ## 🎯 Objectifs
 
 - Créer une fonction simple en JavaScript
