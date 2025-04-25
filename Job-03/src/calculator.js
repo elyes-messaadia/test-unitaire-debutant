@@ -1,5 +1,5 @@
 function evaluateExpression(expression) {
-    if (!/^[0-9+\\-*/().\\s]+$/.test(expression)) {
+    if (!/^[0-9+\-*/().\s]+$/.test(expression)) {
       throw new Error("Expression invalide");
     }
     return eval(expression);
