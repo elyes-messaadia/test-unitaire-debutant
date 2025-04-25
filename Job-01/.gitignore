@@ -1,0 +1,7 @@
+
+# Job-01: Node.js (Jest)
+node_modules/
+package-lock.json
+.env
+.DS_Store
+coverage/

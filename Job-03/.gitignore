@@ -1,0 +1,17 @@
+
+# Job-03: Mixte (JS + PHP + Images)
+node_modules/
+vendor/
+package-lock.json
+composer.lock
+coverage/
+.env
+.DS_Store
+*.log
+*.zip
+*.rar
+*.tar.gz
+*.bak
+*.tmp
+images/*.psd
+images/*.xcf

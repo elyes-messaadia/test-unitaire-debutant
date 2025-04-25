@@ -1,0 +1,6 @@
+
+# Job-02: PHP (PHPUnit + Composer)
+vendor/
+composer.lock
+.env
+.DS_Store
