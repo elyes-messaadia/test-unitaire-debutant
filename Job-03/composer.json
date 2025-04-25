@@ -1,0 +1,15 @@
+{
+    "name": "elyes/job-03",
+    "description": "Tests unitaires en PHP avec PHPUnit pour le Job 03",
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit tests"
+    }
+}
