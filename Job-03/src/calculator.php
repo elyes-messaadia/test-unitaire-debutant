@@ -5,14 +5,18 @@ class Calculator {
         $expression = str_replace(['×', '÷', '−', '–', '—'], ['*', '/', '-', '-', '-'], $expression);
         $expression = trim($expression);
 
+        if ($expression === '') {
+            throw new \RuntimeException("Expression vide");
+        }
+
         try {
             $result = eval("return $expression;");
-        } catch (Throwable $e) {
-            throw new RuntimeException("Erreur de calcul");
+        } catch (\Throwable $e) {
+            throw new \RuntimeException("Erreur de calcul");
         }
 
         if ($result === false) {
-            throw new RuntimeException("Erreur de calcul");
+            throw new \RuntimeException("Erreur de calcul");
         }
 
         return $result;
